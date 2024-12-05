@@ -5,11 +5,11 @@ import fr.tartur.aoc.days.all.*
 
 object Days {
 
-  private val days = Array(
+  private val Days = Array(
     new Day1,
     new Day2
   )
 
-  def apply(i: Int): Day[?] = this.days(i - 1)
+  def apply(i: Int): Day[_] = this.Days(i - 1)
 
 }
